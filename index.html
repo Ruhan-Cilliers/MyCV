@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>CV Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+            body {
+                background-color: lightgray;
+            }
+
+            .section-container {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid grey;
+                border-radius: 10px;
+            }
+
+            .img-border {
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 5px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container mt-5">
+            <h2>Search for Headers:</h2>
+            <!-- Search form -->
+            <form class="mb-4">
+                <div class="form-group">
+                    <label for="mySearch">Search for specific headers</label>
+                    <input type="search" id="mySearch" class="form-control" name="q"
+                        placeholder="Search the site…" pattern="(About me|Skills and competencies|Education|Work experience|Contact details)"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+
+            <!-- About me -->
+            <section id="about-me" class="row section-container">
+                <div class="col-md-8">
+                    <h2><b>About me!</b></h2>
+                    <p>My name is <b>Ruhan Cillers</b> and I am 22 years old. I was born in England and moved to South
+                        Africa when I was very young. I have developed a passion for coding through my experience at
+                        HyperionDev and hope to become an invaluable member of any team I have the privilege of joining.
+                        Some of my hobbies include gaming, surfing, and enjoying good food. I enjoy working with people who
+                        can teach me how to improve in my job and career.</p>
+                    <p>The desire to be useful in any situation I am in motivates me to be the best version of myself I can be.
+                        I am also motivated by a desire to ensure that my work goes above and beyond what was expected of me.
+                    </p>
+                    <p>One day I hope that with my experience one day I can code a product that can help everyone struggling
+                        with self-management due to external or internal pressures. I personally have struggled with these issues
+                        and know it can be difficult to move forward; however, with this product, hopefully, their next step in
+                        life becomes slightly easier!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="IMG_3682.jpg" class="img-fluid img-border" alt="Photo of myself" style="max-width: 100%; height: auto;">
+                </div>
+            </section>
+
+            <!-- Skills and competencies and Education -->
+            <div class="row mt-4">
+                <section id="skills" class="col-md-6 section-container">
+                    <h2><b>Skills and competencies:</b></h2>
+                    <ul>
+                        <li>I am skilled in Python coding.</li>
+                        <li>I have competencies in Excel.</li>
+                        <li>I have competencies in Word.</li>
+                        <li>I have competencies in data analysis.</li>
+                        <li>I am skilled in basics of SQL and SQLite.</li>
+                        <li>I have competencies in HTML.</li>
+                        <li>I have competencies in professional workplace ethics.</li>
+                        <li>I have competencies in C coding.</li>
+                        <li>I have competencies in team leadership and management.</li>
+                    </ul>
+                </section>
+
+                <section id="education" class="col-md-6 section-container">
+                    <h2><b>Education:</b></h2>
+                    <ul>
+                        <li>Matric certificate.</li>
+                        <li>Hyperiondev software engineering course</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Work experience and Contact details -->
+            <div class="row mt-4">
+                <section id="work-experience" class="col-md-6 section-container">
+                    <h2><b>Work experience:</b></h2>
+                    <ul>
+                        <li>Delivery Driver at Butlers pizza.</li>
+                        <li>Storage worker at Auto magneto.</li>
+                    </ul>
+                </section>
+
+                <section id="contact-details" class="col-md-6 section-container">
+                    <h2><b>Contact details:</b></h2>
+                    <ul>
+                        <li>Cellphone number: 0761703863</li>
+                        <li>Email: ruhancilliers64@gmail.com</li>
+                        <li><a href="https://www.linkedin.com/in/ruhan-cilliers-87716a2b8" target="_blank">Linkedin
+                                Profile</a></li>
+                        <li><a href="https://www.instagram.com/ruhan_cilliers/" target="_blank">Instagram Profile</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
